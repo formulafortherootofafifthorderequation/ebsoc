@@ -130,7 +130,7 @@ export let classMenu = {
 export let classMember = {
     $classUrlPath: {
         isMember: async function (token: string, Path: { classUrlPath: string }) {
-            let url: string = "https://" + path.host + path.cls.classMember.$classUrlPath.isMember;
+            let url: string = "https://" + path.host + path.cls.classMember.$classUrlPath.isMember.substitute(Path);
             let req = await axios({
                 method: 'GET',
                 url: url,
