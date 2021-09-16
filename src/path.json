@@ -45,7 +45,7 @@
         },
         "classMember": {
             "$classUrlPath": {
-                "isMember": "/cls/api/v1/classMember/tongsa1a/isMmber"
+                "isMember": "/cls/api/v1/classMember/${classUrlPath}/isMmber"
             }
         },
         "communityBoardNoticeMainList": "/cls/api/v1/communityBoardNoticeMainList"
